@@ -1,3 +1,3 @@
-import { sayHello } from "chalk";
+import chalk from "chalk";
 
-sayHello();
+console.log(chalk.blue("Hello"));
