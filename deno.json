@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "chalk": "npm:chalk@1.0.0"
+  },
+  "patch": [
+    "./local-npm/chalk"
+  ],
+  "nodeModulesDir": "auto",
+  "unstable": ["npm-patch"]
+}
